@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Dda_gLoREeu6CL1NulDfxQ" name="ReceivingOrderTimingDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_DfbKoLoREeu6CL1NulDfxQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_E223oLoREeu6CL1NulDfxQ" name="OrderReceiving">
+    <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_-MJAMLodEeuEkOVi37jF3w" constrainedElement="_e4bbzboUEeu6CL1NulDfxQ">
+      <specification xmi:type="uml:TimeInterval" xmi:id="_-Mtn8LodEeuEkOVi37jF3w"/>
+    </ownedRule>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_HDz3YLoREeu6CL1NulDfxQ" name="Receiver" coveredBy="_usZyNroREeu6CL1NulDfxQ _xtQUELoREeu6CL1NulDfxQ _xtWasLoREeu6CL1NulDfxQ _yrPmULoREeu6CL1NulDfxQ _yrPmXboREeu6CL1NulDfxQ _pFshALoUEeu6CL1NulDfxQ _pFshDboUEeu6CL1NulDfxQ _qRUmoLoUEeu6CL1NulDfxQ _qRUmrboUEeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_usZyM7oREeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.LifelineStateDefinitions">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_usZyNLoREeu6CL1NulDfxQ" key="_usZyMLoREeu6CL1NulDfxQ" value="Idle"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vkf307oREeu6CL1NulDfxQ" key="_vkf30LoREeu6CL1NulDfxQ" value="GivingReceipt"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ni5Rg7oUEeu6CL1NulDfxQ" key="_ni5RgLoUEeu6CL1NulDfxQ" value="ReceiveOrder"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_IpeNoLoREeu6CL1NulDfxQ" name="Donor" coveredBy="_ztKWVroREeu6CL1NulDfxQ _L817gLoUEeu6CL1NulDfxQ _L817jboUEeu6CL1NulDfxQ _jb3xwLoUEeu6CL1NulDfxQ _jb94Z7oUEeu6CL1NulDfxQ _l_zuILoUEeu6CL1NulDfxQ _l_zuLboUEeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ztKWU7oREeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.LifelineStateDefinitions">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ztKWVLoREeu6CL1NulDfxQ" key="_ztKWULoREeu6CL1NulDfxQ" value="Idle"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0elMM7oREeu6CL1NulDfxQ" key="_0elMMLoREeu6CL1NulDfxQ" value="CheckReceipt_1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kDKbQ7oUEeu6CL1NulDfxQ" key="_kDKbQLoUEeu6CL1NulDfxQ" value="GiveOrder"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_KLs1YLoREeu6CL1NulDfxQ" name="Admin" coveredBy="_NvIYhroUEeu6CL1NulDfxQ _aZd9ILoUEeu6CL1NulDfxQ _aZd9LboUEeu6CL1NulDfxQ _iQiAALoUEeu6CL1NulDfxQ _iQoGoLoUEeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NvIYg7oUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.LifelineStateDefinitions">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NvIYhLoUEeu6CL1NulDfxQ" key="_NvIYgLoUEeu6CL1NulDfxQ" value="Idle"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OupUw7oUEeu6CL1NulDfxQ" key="_OupUwLoUEeu6CL1NulDfxQ" value="Verification"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_LT5MgLoREeu6CL1NulDfxQ" name="Database" coveredBy="_b_5IZroUEeu6CL1NulDfxQ _e4bbwLoUEeu6CL1NulDfxQ _e4bbzboUEeu6CL1NulDfxQ _fSwAQLoUEeu6CL1NulDfxQ _fSwATboUEeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b_5IY7oUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.LifelineStateDefinitions">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b_5IZLoUEeu6CL1NulDfxQ" key="_b_5IYLoUEeu6CL1NulDfxQ" value="Idle"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dBB1Q7oUEeu6CL1NulDfxQ" key="_dBB1QLoUEeu6CL1NulDfxQ" value="ProvideReceiptCode"/>
+      </eAnnotations>
+    </lifeline>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_usZyNroREeu6CL1NulDfxQ" name="Idle_1" covered="_HDz3YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_usZyOboREeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_usZyOroREeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_usZyMLoREeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_usZyN7oREeu6CL1NulDfxQ" name="InState_Idle">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_usZyOLoREeu6CL1NulDfxQ">
+          <body>Idle</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_xtQUELoREeu6CL1NulDfxQ" name="Idle_1_To_GivingReceipt_1" covered="_HDz3YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xtQUEboREeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_xtWasLoREeu6CL1NulDfxQ" name="GivingReceipt_1" covered="_HDz3YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xtWas7oREeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xtWatLoREeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_vkf30LoREeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_xtWasboREeu6CL1NulDfxQ" name="InState_GivingReceipt">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_xtWasroREeu6CL1NulDfxQ">
+          <body>GivingReceipt</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_yrPmULoREeu6CL1NulDfxQ" name="GivingReceipt_1_To_Idle_2" covered="_HDz3YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yrPmUboREeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_yrPmXboREeu6CL1NulDfxQ" name="Idle_2" covered="_HDz3YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yrPmYLoREeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yrPmYboREeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_usZyMLoREeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_yrPmXroREeu6CL1NulDfxQ" name="InState_Idle">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_yrPmX7oREeu6CL1NulDfxQ">
+          <body>Idle</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_pFshALoUEeu6CL1NulDfxQ" name="Idle_2_To_ReceiveOrder_1" covered="_HDz3YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFshAboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_pFshDboUEeu6CL1NulDfxQ" name="ReceiveOrder_1" covered="_HDz3YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFshELoUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pFshEboUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_ni5RgLoUEeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_pFshDroUEeu6CL1NulDfxQ" name="InState_ReceiveOrder">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_pFshD7oUEeu6CL1NulDfxQ">
+          <body>ReceiveOrder</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_qRUmoLoUEeu6CL1NulDfxQ" name="ReceiveOrder_1_To_Idle_3" covered="_HDz3YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qRUmoboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_qRUmrboUEeu6CL1NulDfxQ" name="Idle_3" covered="_HDz3YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qRUmsLoUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qRUmsboUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_usZyMLoREeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_qRUmrroUEeu6CL1NulDfxQ" name="InState_Idle">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_qRUmr7oUEeu6CL1NulDfxQ">
+          <body>Idle</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_ztKWVroREeu6CL1NulDfxQ" name="Idle_1" covered="_IpeNoLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ztKWWboREeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ztKWWroREeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_ztKWULoREeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_ztKWV7oREeu6CL1NulDfxQ" name="InState_Idle">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_ztKWWLoREeu6CL1NulDfxQ">
+          <body>Idle</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_L817gLoUEeu6CL1NulDfxQ" name="Idle_1_To_CheckReceipt_1_1" covered="_IpeNoLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L817gboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_L817jboUEeu6CL1NulDfxQ" name="CheckReceipt" covered="_IpeNoLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L817kLoUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L817kboUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_0elMMLoREeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_L817jroUEeu6CL1NulDfxQ" name="InState_CheckReceipt_1">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_L817j7oUEeu6CL1NulDfxQ">
+          <body>CheckReceipt_1</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_jb3xwLoUEeu6CL1NulDfxQ" name="CheckReceipt_1_1_To_GiveOrder_1" covered="_IpeNoLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jb3xwboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_jb94Z7oUEeu6CL1NulDfxQ" name="GiveOrder_1" covered="_IpeNoLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jb94aroUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jb94a7oUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_kDKbQLoUEeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_jb94aLoUEeu6CL1NulDfxQ" name="InState_GiveOrder">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_jb94aboUEeu6CL1NulDfxQ">
+          <body>GiveOrder</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_l_zuILoUEeu6CL1NulDfxQ" name="GiveOrder_1_To_Idle_2" covered="_IpeNoLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l_zuIboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_l_zuLboUEeu6CL1NulDfxQ" name="Idle_2" covered="_IpeNoLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l_50wLoUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l_50wboUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_ztKWULoREeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_l_zuLroUEeu6CL1NulDfxQ" name="InState_Idle">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_l_zuL7oUEeu6CL1NulDfxQ">
+          <body>Idle</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_NvIYhroUEeu6CL1NulDfxQ" name="Idle_1" covered="_KLs1YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NvIYiboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NvIYiroUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_NvIYgLoUEeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_NvIYh7oUEeu6CL1NulDfxQ" name="InState_Idle">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_NvIYiLoUEeu6CL1NulDfxQ">
+          <body>Idle</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_aZd9ILoUEeu6CL1NulDfxQ" name="Idle_1_To_Verification_1" covered="_KLs1YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aZd9IboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_aZd9LboUEeu6CL1NulDfxQ" name="Verification_1" covered="_KLs1YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aZd9MLoUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aZd9MboUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_OupUwLoUEeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_aZd9LroUEeu6CL1NulDfxQ" name="InState_Verification">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_aZd9L7oUEeu6CL1NulDfxQ">
+          <body>Verification</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_iQiAALoUEeu6CL1NulDfxQ" name="Verification_1_To_Idle_2" covered="_KLs1YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iQiAAboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_iQoGoLoUEeu6CL1NulDfxQ" name="Idle_2" covered="_KLs1YLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iQoGo7oUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iQoGpLoUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_NvIYgLoUEeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_iQoGoboUEeu6CL1NulDfxQ" name="InState_Idle">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_iQoGoroUEeu6CL1NulDfxQ">
+          <body>Idle</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_b_5IZroUEeu6CL1NulDfxQ" name="Idle_1" covered="_LT5MgLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b_5IaboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b_5IaroUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_b_5IYLoUEeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_b_5IZ7oUEeu6CL1NulDfxQ" name="InState_Idle">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_b_5IaLoUEeu6CL1NulDfxQ">
+          <body>Idle</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_e4bbwLoUEeu6CL1NulDfxQ" name="Idle_1_To_ProvideReceiptCode_1" covered="_LT5MgLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e4bbwboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_e4bbzboUEeu6CL1NulDfxQ" name="ProvideReceiptCode" covered="_LT5MgLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e4bb0LoUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e4bb0boUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_dBB1QLoUEeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_e4bbzroUEeu6CL1NulDfxQ" name="InState_ProvideReceiptCode">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_e4bbz7oUEeu6CL1NulDfxQ">
+          <body>ProvideReceiptCode</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <fragment xmi:type="uml:OccurrenceSpecification" xmi:id="_fSwAQLoUEeu6CL1NulDfxQ" name="ProvideReceiptCode_1_To_Idle_2" covered="_LT5MgLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fSwAQboUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.autogeneratedOccurrenceSpecificationName"/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_fSwATboUEeu6CL1NulDfxQ" name="Idle_2" covered="_LT5MgLoREeu6CL1NulDfxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fSwAULoUEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateInvariant">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fSwAUboUEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateInvariantStateDefinitionId" value="_b_5IYLoUEeu6CL1NulDfxQ"/>
+      </eAnnotations>
+      <invariant xmi:type="uml:Constraint" xmi:id="_fSwATroUEeu6CL1NulDfxQ" name="InState_Idle">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_fSwAT7oUEeu6CL1NulDfxQ">
+          <body>Idle</body>
+        </specification>
+      </invariant>
+    </fragment>
+    <message xmi:type="uml:Message" xmi:id="_tUutQLoUEeu6CL1NulDfxQ"/>
+    <message xmi:type="uml:Message" xmi:id="_0kMvMLoVEeu6CL1NulDfxQ"/>
+    <message xmi:type="uml:Message" xmi:id="_30e0MLoVEeu6CL1NulDfxQ"/>
+    <message xmi:type="uml:Message" xmi:id="_ROrhMLoXEeu9D7P7pQqAPg"/>
+    <message xmi:type="uml:Message" xmi:id="_SaudkLoXEeu9D7P7pQqAPg"/>
+    <message xmi:type="uml:Message" xmi:id="_T0Y_MLoXEeu9D7P7pQqAPg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DurationConstraint" xmi:id="_4bCkQLodEeuEkOVi37jF3w" constrainedElement="_pFshDboUEeu6CL1NulDfxQ">
+    <specification xmi:type="uml:DurationInterval" xmi:id="_4bIq4LodEeuEkOVi37jF3w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Duration" xmi:id="_4bOxgLodEeuEkOVi37jF3w">
+    <expr xmi:type="uml:LiteralString" xmi:id="_4bOxgrodEeuEkOVi37jF3w" value="d1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Duration" xmi:id="_4bOxgbodEeuEkOVi37jF3w">
+    <expr xmi:type="uml:LiteralString" xmi:id="_4bOxg7odEeuEkOVi37jF3w" value="d2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:TimeExpression" xmi:id="_-MzukLodEeuEkOVi37jF3w">
+    <expr xmi:type="uml:LiteralString" xmi:id="_-MzukrodEeuEkOVi37jF3w" value="t1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:TimeExpression" xmi:id="_-MzukbodEeuEkOVi37jF3w">
+    <expr xmi:type="uml:LiteralString" xmi:id="_-Mzuk7odEeuEkOVi37jF3w" value="t2"/>
+  </packagedElement>
+</uml:Model>

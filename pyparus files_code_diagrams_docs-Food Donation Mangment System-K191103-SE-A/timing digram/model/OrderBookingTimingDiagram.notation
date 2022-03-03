@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_bo4XkLoJEeuSt7LEBEW8Fw" type="PapyrusUMLTimingDiagram" name="Timing Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_2qaj4LoMEeu6CL1NulDfxQ" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2qmxILoMEeu6CL1NulDfxQ" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2qmxIboMEeu6CL1NulDfxQ" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_4x3_oLoMEeu6CL1NulDfxQ" type="Lifeline_FullShape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_4x3_oroMEeu6CL1NulDfxQ" type="Lifeline_FullNameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_4x3_o7oMEeu6CL1NulDfxQ" type="Lifeline_FullStateDefinitionCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_E3uhsLoOEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_E4ldUboOEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_E4ldUroOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_E4ldULoOEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_E4ldVLoOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="Update"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_E3uhsroOEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_E3uhs7oOEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E3uhsboOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_AtjnULoOEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AumwMboOEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AumwMroOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_AumwMLoOEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Aus20LoOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="ProvideInventory"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_AtjnUroOEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_AtjnU7oOEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AtjnUboOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="__tqQkLoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__unS0boNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__unS0roNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="__unS0LoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__unS1boNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="Idle"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="__twXMLoNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="__twXMboNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__tqQkboNEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_4x3_pLoMEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_4x3_pboMEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4x3_proMEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_4x-GQLoMEeu6CL1NulDfxQ" type="Lifeline_FullSubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="__unS27oNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="__unS3boNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__unS3roNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#__unS1roNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__unS3LoNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_G2R5EroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_G2R5FroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_G2R5F7oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_G2R5GLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_G2R5GboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_G2R5E7oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_G2R5FLoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_G2R5ELoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Ov3PALoPEeu6CL1NulDfxQ" x="30" y="79"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_G2R5G7oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G2R5HLoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_G2R5IroOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_G2R5JLoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_G2R5JboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_G2R5HboOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G2R5I7oOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IVQ_kLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_IVQ_lLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IVQ_lboOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_IVQ_lroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IVQ_l7oOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_IVQ_kboOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_IVQ_kroOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_IVK48LoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IVQ_mLoOEeu6CL1NulDfxQ" x="66" y="46"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_IVQ_mboOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IVQ_mroOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_IVQ_oLoOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_IVQ_oroOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IVQ_o7oOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_IVQ_m7oOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IVQ_oboOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_J9yckroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_J9yclroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_J9ycl7oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_J9ycmLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_J9ycmboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_J9yck7oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_J9yclLoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_J9yckLoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_J9ycmroOEeu6CL1NulDfxQ" x="435" y="84"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_J9ycm7oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9ycnLoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_J9ycoroOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_J9ycpLoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_J9ycpboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_J9ycnboOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9yco7oOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L9xXUroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_L9xXVroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L9xXV7oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_L9xXWLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L9xXWboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_L9xXU7oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_L9xXVLoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_L9xXULoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_L9xXWroOEeu6CL1NulDfxQ" x="540" y="17"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_L9xXW7oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L9xXXLoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_L9xXYroOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_L9xXZLoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L9xXZboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_L9xXXboOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L9xXY7oOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_lgypILoPEeu6CL1NulDfxQ" type="TimeConstraint_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_lgypIroPEeu6CL1NulDfxQ" type="TimeConstraint_BodyLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lgypI7oPEeu6CL1NulDfxQ" x="28" y="-23"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_lgypJLoPEeu6CL1NulDfxQ" type="TimeConstraint_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lgypJboPEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:TimeConstraint" href="OrderBookingTimingDiagram.uml#_lgB0ILoPEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_lhpkwLoPEeu6CL1NulDfxQ" x="30" y="29"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Czwz8LoQEeu6CL1NulDfxQ" type="DurationConstraint_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Czwz8roQEeu6CL1NulDfxQ" type="DurationConstraint_BodyLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Czwz87oQEeu6CL1NulDfxQ" x="41" y="9"/>
+            </children>
+            <element xmi:type="uml:DurationConstraint" href="OrderBookingTimingDiagram.uml#_CzqtULoQEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Czwz8boQEeu6CL1NulDfxQ" x="437" y="37" width="106"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4x-GQboMEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_4x-GQroMEeu6CL1NulDfxQ" visible="false" type="Lifeline_FullTimeRulerCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_4yWgwLoMEeu6CL1NulDfxQ" type="Node_FreeTimeRulerShape">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_4yWgwroMEeu6CL1NulDfxQ" type="Node_FreeTimeRulerCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yWgw7oMEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yWgwboMEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_4x-GQ7oMEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_4x-GRLoMEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4x-GRboMEeu6CL1NulDfxQ"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="OrderBookingTimingDiagram.uml#_4xlrwLoMEeu6CL1NulDfxQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4x3_oboMEeu6CL1NulDfxQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_7Lb4ALoMEeu6CL1NulDfxQ" type="Lifeline_FullShape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_7Lb4AroMEeu6CL1NulDfxQ" type="Lifeline_FullNameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_7Lb4A7oMEeu6CL1NulDfxQ" type="Lifeline_FullStateDefinitionCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_0X0ZsLoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0Yxb8boNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Yxb8roNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_0Yxb8LoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Yxb9LoNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="ReceiptCreate_1"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_0X0ZsroNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_0X0Zs7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0X0ZsboNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_yQHGULoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yREIkboNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yREIkroNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_yREIkLoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yREIlboNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="Idle"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_yQHGUroNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_yQHGU7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yQHGUboNEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_7Lb4BLoMEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_7Lb4BboMEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Lb4BroMEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_7Lb4B7oMEeu6CL1NulDfxQ" type="Lifeline_FullSubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_yREIm7oNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_yREInboNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yREInroNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_yREIlroNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yREInLoNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3h5wEroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_3h5wFroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3h5wF7oNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_3h5wGLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3h5wGboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_3h5wE7oNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_3h5wFLoNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_3h5wELoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3h5wGroNEeu6CL1NulDfxQ" x="427" y="51"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_3h5wG7oNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3h5wHLoNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_3h5wIroNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_3h5wJLoNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3h5wJboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_3h5wHboNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3h5wI7oNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MpcxkroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_MpcxlroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Mpcxl7oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_MpcxmLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_MpcxmboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_Mpcxk7oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_MpcxlLoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_MpcxkLoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_MpcxmroOEeu6CL1NulDfxQ" x="553" y="18"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Mpcxm7oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MpcxnLoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_MpcxoroOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_MpcxpLoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_MpcxpboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_MpcxnboOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mpcxo7oOEeu6CL1NulDfxQ"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Lb4CLoMEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_7Lb4CboMEeu6CL1NulDfxQ" visible="false" type="Lifeline_FullTimeRulerCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_7LuL4LoMEeu6CL1NulDfxQ" type="Node_FreeTimeRulerShape">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_7LuL4roMEeu6CL1NulDfxQ" type="Node_FreeTimeRulerCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7LuL47oMEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7LuL4boMEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_7Lb4CroMEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_7Lb4C7oMEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Lb4DLoMEeu6CL1NulDfxQ"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="OrderBookingTimingDiagram.uml#_7LJkILoMEeu6CL1NulDfxQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Lb4AboMEeu6CL1NulDfxQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8iH-ILoMEeu6CL1NulDfxQ" type="Lifeline_FullShape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8iH-IroMEeu6CL1NulDfxQ" type="Lifeline_FullNameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_8iH-I7oMEeu6CL1NulDfxQ" type="Lifeline_FullStateDefinitionCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_qbt88LoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qcex8boNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qcex8roNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_qcex8LoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qcex9LoNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="CreateOrderCart_1"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_qbt88roNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_qbt887oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qbt88boNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_0EKzALoPEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0FN74boPEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0FN74roPEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_0FN74LoPEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0FN75LoPEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="GetReceipt"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_0EKzAroPEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_0EKzA7oPEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0EKzAboPEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_lu0wALoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lvfeYboNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lvfeYroNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_lvfeYLoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lvfeZboNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="Idle"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_lu0wAroNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_lu0wA7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lu0wAboNEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_8iH-JLoMEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_8iH-JboMEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iH-JroMEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_8iH-J7oMEeu6CL1NulDfxQ" type="Lifeline_FullSubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_lvfea7oNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_lvfebboNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lvfebroNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_lvfeZroNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lvfebLoNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vWhqEroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vWhqFroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vWhqF7oNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_vWhqGLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vWhqGboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_vWhqE7oNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_vWhqFLoNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_vWhqELoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vWhqGroNEeu6CL1NulDfxQ" x="314" y="51"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vWhqG7oNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vWhqHLoNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vWnwtboNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vWnwt7oNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vWnwuLoNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_vWnwsLoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vWnwtroNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_245PUroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_245PVroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_245PV7oNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_245PWLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_245PWboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_245PU7oNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_245PVLoNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_245PULoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_245PWroNEeu6CL1NulDfxQ" x="435" y="27"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_245PW7oNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_245PXLoNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_24_V9boNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_24_V97oNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_24_V-LoNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_24_V8LoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24_V9roNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OBqhsroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_OBqhtroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_OBqht7oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_OBqhuLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_OBqhuboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_OBqhs7oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_OBqhtLoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_OBqhsLoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OBqhuroOEeu6CL1NulDfxQ" x="552" y="18"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_OBqhu7oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OBqhvLoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_OBwoUroOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_OBwoVLoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_OBwoVboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_OBqhvboOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OBwoU7oOEeu6CL1NulDfxQ"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iH-KLoMEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_8iH-KboMEeu6CL1NulDfxQ" visible="false" type="Lifeline_FullTimeRulerCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_8imfQLoMEeu6CL1NulDfxQ" type="Node_FreeTimeRulerShape">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_8imfQroMEeu6CL1NulDfxQ" type="Node_FreeTimeRulerCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8imfQ7oMEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8imfQboMEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_8iH-KroMEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_8iH-K7oMEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iH-LLoMEeu6CL1NulDfxQ"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="OrderBookingTimingDiagram.uml#_8h1qQLoMEeu6CL1NulDfxQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iH-IboMEeu6CL1NulDfxQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ba1ZgLoNEeu6CL1NulDfxQ" type="Lifeline_FullShape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Ba7gILoNEeu6CL1NulDfxQ" type="Lifeline_FullNameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_Ba7gIboNEeu6CL1NulDfxQ" type="Lifeline_FullStateDefinitionCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_TFiEMLoOEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TGY_0boOEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TGY_0roOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_TGY_0LoOEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TGY_1LoOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="UpdateInventory"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_TFiEMroOEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_TFiEM7oOEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TFiEMboOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_SJkAoLoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SKIoYboNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SKIoYroNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_SKIoYLoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SKIoZLoNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="ProvideInventory"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_SJkAoroNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_SJkAo7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SJkAoboNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_JH5y4LoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JIeaoboNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JIeaoroNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_JIeaoLoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JIeapboNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="Idle"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_JH5y4roNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_JH5y47oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JH5y4boNEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Ba7gIroNEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Ba7gI7oNEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ba7gJLoNEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_Ba7gJboNEeu6CL1NulDfxQ" type="Lifeline_FullSubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_JIkhQroNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_JIkhRLoNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JIkhRboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_JIeaproNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JIkhQ7oNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YOafAroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_YOafBroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_YOafB7oNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_YOafCLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_YOafCboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_YOafA7oNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_YOafBLoNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_YOafALoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YOgloLoNEeu6CL1NulDfxQ" x="34" y="69"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_YOgloboNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOgloroNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_YOglqLoNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_YOglqroNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_YOglq7oNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_YOglo7oNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOglqboNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Y0XrwroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Y0XrxroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Y0Xrx7oNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Y0XryLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Y0XryboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_Y0Xrw7oNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_Y0XrxLoNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_Y0XrwLoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-A2JcLoNEeu6CL1NulDfxQ" x="80" y="35"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Y0Xry7oNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y0XrzLoNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Y0dyYboNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Y0dyY7oNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Y0dyZLoNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_Y0XrzboNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y0dyYroNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Uoz00roOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Uoz01roOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Uoz017oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Uoz02LoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Uoz02boOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_Uoz007oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_Uoz01LoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_Uoz00LoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Uoz02roOEeu6CL1NulDfxQ" x="551" y="74"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Uoz027oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uoz03LoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Uoz04roOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Uoz05LoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Uoz05boOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_Uoz03boOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uoz047oOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Vr2mMroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Vr2mNroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Vr2mN7oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Vr2mOLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Vr2mOboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_Vr2mM7oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_Vr2mNLoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_Vr2mMLoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Vr2mOroOEeu6CL1NulDfxQ" x="647" y="14"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Vr2mO7oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vr2mPLoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Vr2mQroOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Vr2mRLoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Vr2mRboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_Vr2mPboOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vr2mQ7oOEeu6CL1NulDfxQ"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ba7gJroNEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_Ba7gJ7oNEeu6CL1NulDfxQ" visible="false" type="Lifeline_FullTimeRulerCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_BbT6oLoNEeu6CL1NulDfxQ" type="Node_FreeTimeRulerShape">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_BbT6oroNEeu6CL1NulDfxQ" type="Node_FreeTimeRulerCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbT6o7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbT6oboNEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Ba7gKLoNEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Ba7gKboNEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ba7gKroNEeu6CL1NulDfxQ"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="OrderBookingTimingDiagram.uml#_BapMQLoNEeu6CL1NulDfxQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ba1ZgboNEeu6CL1NulDfxQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_CgpLALoNEeu6CL1NulDfxQ" type="Lifeline_FullShape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_CgpLAroNEeu6CL1NulDfxQ" type="Lifeline_FullNameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_CgpLA7oNEeu6CL1NulDfxQ" type="Lifeline_FullStateDefinitionCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_MifDYLoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MjJxwLoNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MjJxwboNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_MjDrILoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MjJxw7oNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="ShowInventory"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_MilKALoNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_MilKAboNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MifDYboNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_aRxocLoOEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aSidcboOEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aSidcroOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_aSidcLoOEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aSiddLoOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="DisplayMessage"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_aRxocroOEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_aRxoc7oOEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aRxocboOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_GwLGgLoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GwjhAboNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GwjhAroNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_GwjhALoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GwjhBboNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="Idle"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_GwLGgroNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_GwLGg7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GwLGgboNEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_CgpLBLoNEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_CgpLBboNEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CgpLBroNEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_CgpLB7oNEeu6CL1NulDfxQ" type="Lifeline_FullSubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_GwjhC7oNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_GwpnoLoNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_GwpnoboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_GwjhBroNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GwjhDLoNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VnrGQroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_VnxM4LoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VnxM4boNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_VnxM4roNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VnxM47oNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_VnrGQ7oNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_VnrGRLoNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_VnrGQLoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_VnxM5LoNEeu6CL1NulDfxQ" x="34" y="72"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_VnxM5boNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VnxM5roNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_VnxM7LoNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_VnxM7roNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VnxM77oNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_VnxM57oNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VnxM7boNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X1VQoLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_X1VQpLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_X1VQpboNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_X1VQproNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_X1VQp7oNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_X1VQoboNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_X1VQoroNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_X1PKALoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_X1VQqLoNEeu6CL1NulDfxQ" x="98" y="34"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_X1VQqboNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X1VQqroNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_X1VQsLoNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_X1VQsroNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_X1VQs7oNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_X1VQq7oNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X1VQsboNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dXL6MLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_dXL6NLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dXL6NboOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_dXL6NroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dXL6N7oOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_dXL6MboOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_dXL6MroOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_dXFzkLoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dXL6OLoOEeu6CL1NulDfxQ" x="652" y="73"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_dXL6OboOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXL6OroOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_dXYHcroOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_dXYHdLoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dXYHdboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_dXSA0LoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXYHc7oOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dtsVsroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_dtsVtroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dtsVt7oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_dtsVuLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dtsVuboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_dtsVs7oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_dtsVtLoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_dtsVsLoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dtsVuroOEeu6CL1NulDfxQ" x="765" y="40"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_dtsVu7oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dtsVvLoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_dtycUboOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_dtycU7oOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dtycVLoOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_dtsVvboOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dtycUroOEeu6CL1NulDfxQ"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CgpLCLoNEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_CgpLCboNEeu6CL1NulDfxQ" visible="false" type="Lifeline_FullTimeRulerCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_ChT5YLoNEeu6CL1NulDfxQ" type="Node_FreeTimeRulerShape">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_ChT5YroNEeu6CL1NulDfxQ" type="Node_FreeTimeRulerCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ChT5Y7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ChT5YboNEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_CgpLCroNEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_CgpLC7oNEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CgpLDLoNEeu6CL1NulDfxQ"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="OrderBookingTimingDiagram.uml#_CgW3ILoNEeu6CL1NulDfxQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CgpLAboNEeu6CL1NulDfxQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_EKsSALoNEeu6CL1NulDfxQ" type="Lifeline_FullShape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_EKsSAroNEeu6CL1NulDfxQ" type="Lifeline_FullNameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EKsSA7oNEeu6CL1NulDfxQ" type="Lifeline_FullStateDefinitionCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_KMwiILoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KNPDQboNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KNPDQroNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_KNPDQLoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KNPDRLoNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="RequestPage"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_KMwiIroNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_KMwiI7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KMwiIboNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_bBzMoLoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bCkBoboNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bCkBoroNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_bCkBoLoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bCkBpLoNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="BookingOrder"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_bBzMoroNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_bBzMo7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bBzMoboNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_gVf64LoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gWW2gboNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gWW2groNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_gWW2gLoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gWW2hLoNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="Submitorder"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_gVf64roNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_gVf647oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gVf64boNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_gpYDsLoOEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gqVF8boOEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gqVF8roOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_gqVF8LoOEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gqVF9LoOEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="ReceiptVIew"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_gpYDsroOEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_gpYDs7oOEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gpYDsboOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_FpjcsLoNEeu6CL1NulDfxQ" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FqWG4boNEeu6CL1NulDfxQ" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FqWG4roNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_FqWG4LoNEeu6CL1NulDfxQ"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FqWG5boNEeu6CL1NulDfxQ" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="Idle"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Fpl48LoNEeu6CL1NulDfxQ" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_Fpl48boNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FpjcsboNEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_EKsSBLoNEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_EKsSBboNEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EKsSBroNEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EKsSB7oNEeu6CL1NulDfxQ" type="Lifeline_FullSubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_FqcNgroNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_FqcNhLoNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_FqcNhboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_FqWG5roNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FqcNg7oNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_U0RTYLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_U0RTZLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_U0RTZboNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_U0RTZroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_U0RTZ7oNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_U0RTYboNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_U0RTYroNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_U0LMwLoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_U0RTaLoNEeu6CL1NulDfxQ" x="29" y="72"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_U0RTaboNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U0RTaroNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_U0RTcLoNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_U0RTcroNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_U0RTc7oNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_U0RTa7oNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U0RTcboNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z6FWoroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Z6FWproNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z6FWp7oNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Z6LdQLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z6LdQboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_Z6FWo7oNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_Z6FWpLoNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_Z6FWoLoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Z6LdQroNEeu6CL1NulDfxQ" x="126" y="33"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Z6LdQ7oNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z6LdRLoNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Z6LdSroNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Z6LdTLoNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Z6LdTboNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_Z6LdRboNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z6LdS7oNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fkGTIroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_fkMZwLoNEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fkMZwboNEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_fkMZwroNEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fkMZw7oNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_fkGTI7oNEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_fkGTJLoNEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_fkGTILoNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_fkMZxLoNEeu6CL1NulDfxQ" x="288" y="71"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fkMZxboNEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fkMZxroNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fkMZzLoNEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_fkMZzroNEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fkMZz7oNEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_fkMZx7oNEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fkMZzboNEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eqD3UroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_eqD3VroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eqD3V7oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_eqD3WLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eqD3WboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_eqD3U7oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_eqD3VLoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_eqD3ULoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_eqD3WroOEeu6CL1NulDfxQ" x="769" y="71"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_eqD3W7oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eqD3XLoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_eqD3YroOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_eqD3ZLoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eqD3ZboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_eqD3XboOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eqD3Y7oOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ibrHwroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_ibrHxroOEeu6CL1NulDfxQ" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ibrHx7oOEeu6CL1NulDfxQ" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_ibrHyLoOEeu6CL1NulDfxQ" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ibrHyboOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_ibrHw7oOEeu6CL1NulDfxQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_ibrHxLoOEeu6CL1NulDfxQ"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="OrderBookingTimingDiagram.uml#_ibrHwLoOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ibrHyroOEeu6CL1NulDfxQ" x="925" y="90"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_ibrHy7oOEeu6CL1NulDfxQ" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ibrHzLoOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_ibrH0roOEeu6CL1NulDfxQ" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_ibrH1LoOEeu6CL1NulDfxQ" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ibrH1boOEeu6CL1NulDfxQ" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="OrderBookingTimingDiagram.uml#_ibrHzboOEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ibrH07oOEeu6CL1NulDfxQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_eUc-RboPEeu6CL1NulDfxQ" type="DurationConstraint_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_eUc-R7oPEeu6CL1NulDfxQ" type="DurationConstraint_BodyLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eUc-SLoPEeu6CL1NulDfxQ" x="228" y="10"/>
+            </children>
+            <element xmi:type="uml:DurationConstraint" href="OrderBookingTimingDiagram.uml#_eUW3oLoPEeu6CL1NulDfxQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eUc-RroPEeu6CL1NulDfxQ" x="290" y="65" width="482"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EKsSCLoNEeu6CL1NulDfxQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EKsSCboNEeu6CL1NulDfxQ" visible="false" type="Lifeline_FullTimeRulerCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_ELKzILoNEeu6CL1NulDfxQ" type="Node_FreeTimeRulerShape">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_ELKzIroNEeu6CL1NulDfxQ" type="Node_FreeTimeRulerCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ELKzI7oNEeu6CL1NulDfxQ"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ELKzIboNEeu6CL1NulDfxQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_EKsSCroNEeu6CL1NulDfxQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_EKsSC7oNEeu6CL1NulDfxQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EKsSDLoNEeu6CL1NulDfxQ"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="OrderBookingTimingDiagram.uml#_EKT3gLoNEeu6CL1NulDfxQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EKsSAboNEeu6CL1NulDfxQ"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2qmxIroMEeu6CL1NulDfxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2qmxI7oMEeu6CL1NulDfxQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2qmxJLoMEeu6CL1NulDfxQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2qmxJboMEeu6CL1NulDfxQ" type="Interaction_TimeRulerCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2rRfgLoMEeu6CL1NulDfxQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2rRfgboMEeu6CL1NulDfxQ" key="visible" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="_2rLY4LoMEeu6CL1NulDfxQ" type="Node_FreeTimeRulerShape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_2rLY4roMEeu6CL1NulDfxQ" type="Node_FreeTimeRulerCompartment">
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2rLY47oMEeu6CL1NulDfxQ"/>
+        </children>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2rLY4boMEeu6CL1NulDfxQ"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2qmxJroMEeu6CL1NulDfxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2qmxJ7oMEeu6CL1NulDfxQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2qmxKLoMEeu6CL1NulDfxQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2rFSQLoMEeu6CL1NulDfxQ" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_2rFSQboMEeu6CL1NulDfxQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2rFSQroMEeu6CL1NulDfxQ"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="OrderBookingTimingDiagram.uml#_2n73oLoMEeu6CL1NulDfxQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2qaj4boMEeu6CL1NulDfxQ" x="20" y="20" width="1201" height="601"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_bo4XkboJEeuSt7LEBEW8Fw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_bo4XkroJEeuSt7LEBEW8Fw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_bo4Xk7oJEeuSt7LEBEW8Fw" diagramKindId="org.eclipse.papyrus.uml.diagram.timing">
+    <owner xmi:type="uml:Model" href="OrderBookingTimingDiagram.uml#_boTv0LoJEeuSt7LEBEW8Fw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="OrderBookingTimingDiagram.uml#_boTv0LoJEeuSt7LEBEW8Fw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_k7buwLoOEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_U0RTcLoNEeu6CL1NulDfxQ" target="_VnxM7LoNEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_k7h1YLoOEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k7h1YboOEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k7h1YroOEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k7h1Y7oOEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_k7buwboOEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_pu95wLoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_qrnvQLoPEeu6CL1NulDfxQ" name="targetDecoration" stringValue="solid_arrow_filled"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_k63HALoOEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k7buwroOEeu6CL1NulDfxQ" points="[-1, 6, -1, 6]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k89YwLoOEeu6CL1NulDfxQ" id="(0.07368421052631578,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k89YwboOEeu6CL1NulDfxQ" id="(0.03225806451612903,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__sTJMLoOEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_VnxM7LoNEeu6CL1NulDfxQ" target="_YOglqLoNEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="__sTJM7oOEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__sTJNLoOEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__sTJNboOEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__sTJNroOEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__sTJMboOEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_sKgvILoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_sg09YLoPEeu6CL1NulDfxQ" name="targetDecoration" stringValue="solid_arrow_filled"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#__roa0LoOEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__sTJMroOEeu6CL1NulDfxQ" points="[-7, 3, -9, 69]$[-7, -70, -9, -4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__tuskLoOEeu6CL1NulDfxQ" id="(0.14516129032258066,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__tuskboOEeu6CL1NulDfxQ" id="(0.22727272727272727,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BDFV8LoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_Y0XrwroNEeu6CL1NulDfxQ" target="_X1VQoLoNEeu6CL1NulDfxQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C_0vcLoPEeu6CL1NulDfxQ" source="messageConnectorLocation">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C_0vcboPEeu6CL1NulDfxQ" key="x" value="-22"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C_0vcroPEeu6CL1NulDfxQ" key="y" value="-69"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BDFV87oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BDFV9LoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BDFV9boPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BDFV9roPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_BDFV8boPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_vaB_ILoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_BCguMLoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BDFV8roPEeu6CL1NulDfxQ" points="[-8, 4, -32, -58]$[32, 57, 8, -5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BEg5ULoPEeu6CL1NulDfxQ" id="(0.2,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BEg5UboPEeu6CL1NulDfxQ" id="(0.0,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_E3CIsLoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_X1VQsLoNEeu6CL1NulDfxQ" target="_U0RTcLoNEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_E3CIs7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E3CItLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_E3CItboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E3CItroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_E3CIsboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_v5T8ILoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_E2dg8LoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E3CIsroPEeu6CL1NulDfxQ" points="[-1, 3, -25, -37]$[25, 43, 1, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E4dsELoPEeu6CL1NulDfxQ" id="(0.010869565217391304,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E4dsEboPEeu6CL1NulDfxQ" id="(0.9473684210526315,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_G87eMLoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_fkGTIroNEeu6CL1NulDfxQ" target="_lvfea7oNEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_G87eM7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_G87eNLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_G87eNboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_G87eNroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_G87eMboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_w3Nu0LoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_xP6isLoPEeu6CL1NulDfxQ" name="targetDecoration" stringValue="solid_arrow_filled"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_G8Qv0LoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G87eMroPEeu6CL1NulDfxQ" points="[0, 0, -23, 242]$[25, -241, 2, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G-XBkLoPEeu6CL1NulDfxQ" id="(0.2,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G-XBkboPEeu6CL1NulDfxQ" id="(0.9904458598726115,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_M2vKMLoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_YOglqLoNEeu6CL1NulDfxQ" target="_G2R5IroOEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_M2vKM7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_M2vKNLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_M2vKNboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_M2vKNroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_M2vKMboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_tXeRgLoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_tzISwLoPEeu6CL1NulDfxQ" name="targetDecoration" stringValue="solid_arrow_filled"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_M2Eb0LoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M2vKMroPEeu6CL1NulDfxQ" points="[1, -2, -6, 206]$[21, -205, 14, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M4pOsLoPEeu6CL1NulDfxQ" id="(0.045454545454545456,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M4pOsboPEeu6CL1NulDfxQ" id="(0.17647058823529413,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_QZ0PYLoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_G2R5IroOEeu6CL1NulDfxQ" target="_YOglqLoNEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QZ0PY7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QZ0PZLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QZ0PZboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QZ0PZroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QZ0PYboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_u2E9gLoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue=""/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_QZPnoLoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QZ0PYroPEeu6CL1NulDfxQ" points="[5, -3, -6, -219]$[5, 220, -6, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QcGuYLoPEeu6CL1NulDfxQ" id="(0.6176470588235294,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QcGuYboPEeu6CL1NulDfxQ" id="(0.6136363636363636,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_USDsQLoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_vWnwtboNEeu6CL1NulDfxQ" target="_3h5wIroNEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_USDsQ7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_USDsRLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_USDsRboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_USDsRroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_USDsQboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_32B7ELoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_4mYZ8LoPEeu6CL1NulDfxQ" name="targetDecoration" stringValue="solid_arrow_filled"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_URfEgLoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_USDsQroPEeu6CL1NulDfxQ" points="[4, -3, -34, 57]$[35, -60, -3, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UTxjgLoPEeu6CL1NulDfxQ" id="(0.8571428571428571,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UTxjgboPEeu6CL1NulDfxQ" id="(0.0,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VnspgLoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_3h5wIroNEeu6CL1NulDfxQ" target="_J9ycoroOEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Vnspg7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VnsphLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VnsphboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VnsphroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VnspgboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_6zntkLoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_7bxSsLoPEeu6CL1NulDfxQ" name="targetDecoration" stringValue="solid_arrow_filled"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_VnIBwLoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VnspgroPEeu6CL1NulDfxQ" points="[-2, -5, 0, 90]$[-2, -98, 0, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VpOTgLoPEeu6CL1NulDfxQ" id="(0.08064516129032258,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VpOTgboPEeu6CL1NulDfxQ" id="(0.009708737864077669,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_WqEsgLoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_J9ycoroOEeu6CL1NulDfxQ" target="_3h5wIroNEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WqEsg7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WqEshLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WqEshboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WqEshroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WqEsgboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_8BWE8LoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_WpZ-ILoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WqEsgroPEeu6CL1NulDfxQ" points="[-9, 4, -22, -85]$[11, 87, -2, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WryjwLoPEeu6CL1NulDfxQ" id="(0.8737864077669902,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WryjwboPEeu6CL1NulDfxQ" id="(0.8870967741935484,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XjY6ILoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_3h5wIroNEeu6CL1NulDfxQ" target="_24_V9boNEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XjY6I7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XjY6JLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XjY6JboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XjY6JroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XjY6IboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_8p4EkLoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_XiuLwLoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XjY6IroPEeu6CL1NulDfxQ" points="[8, 4, -4, -61]$[8, 66, -4, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XlM4ALoPEeu6CL1NulDfxQ" id="(0.8145161290322581,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XlM4AboPEeu6CL1NulDfxQ" id="(0.8928571428571429,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZY4cILoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_24_V9boNEeu6CL1NulDfxQ" target="_Uoz04roOEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZY4cI7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZY4cJLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZY4cJboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZY4cJroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZY4cIboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_9VXRkLoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_ZYT0YLoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZY4cIroPEeu6CL1NulDfxQ" points="[-1, 4, -18, -56]$[19, 62, 2, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZaaGILoPEeu6CL1NulDfxQ" id="(0.8928571428571429,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZaaGIboPEeu6CL1NulDfxQ" id="(0.0,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ahjUYLoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_Uoz04roOEeu6CL1NulDfxQ" target="_dXL6MLoOEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ahjUY7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ahjUZLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ahjUZboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ahjUZroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ahjUYboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_-Z7s8LoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_ag4mALoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ahjUYroPEeu6CL1NulDfxQ" points="[2, -2, -15, -144]$[17, 142, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ajE-YLoPEeu6CL1NulDfxQ" id="(0.8829787234042553,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ajE-YboPEeu6CL1NulDfxQ" id="(0.2,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_c05QALoPEeu6CL1NulDfxQ" type="Message_FoundEdge" source="_dXYHcroOEeu6CL1NulDfxQ" target="_fkMZzLoNEeu6CL1NulDfxQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_c05QA7oPEeu6CL1NulDfxQ" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c05QBLoPEeu6CL1NulDfxQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_c05QBboPEeu6CL1NulDfxQ" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c05QBroPEeu6CL1NulDfxQ" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_c05QAboPEeu6CL1NulDfxQ"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="__H0tsLoPEeu6CL1NulDfxQ" name="sourceDecoration" stringValue="none"/>
+    <element xmi:type="uml:Message" href="OrderBookingTimingDiagram.uml#_c0OhoLoPEeu6CL1NulDfxQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c05QAroPEeu6CL1NulDfxQ" points="[7, -2, -3, -115]$[7, 113, -3, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c2a6ALoPEeu6CL1NulDfxQ" id="(0.8738738738738738,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c2a6AboPEeu6CL1NulDfxQ" id="(0.9832985386221295,0.0)"/>
+  </edges>
+</notation:Diagram>

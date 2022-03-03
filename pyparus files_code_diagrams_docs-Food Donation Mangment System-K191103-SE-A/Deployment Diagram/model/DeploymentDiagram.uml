@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yjZ2ILpXEeukA4iG_0-kAQ" name="DeploymentDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_ykZ7sLpXEeukA4iG_0-kAQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Device" xmi:id="_EP5lsLpbEeukA4iG_0-kAQ" name="WebApplication">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_dgrGYLpbEeukA4iG_0-kAQ" name="UserData.asp" fileName=""/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_tQRLwLpbEeukA4iG_0-kAQ" name="Inventory.asp"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_yRJEoLpbEeukA4iG_0-kAQ" name="Order.asp"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_8vFNsLpcEeukA4iG_0-kAQ" name="Food.asp"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_34rU4LpbEeukA4iG_0-kAQ" name="Database Server">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_8_-l4LpbEeukA4iG_0-kAQ" name="SQL-SERVER Database" fileName=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_TiRuILpcEeukA4iG_0-kAQ" name="UserPC">
+    <nestedNode xmi:type="uml:Device" xmi:id="_XvvNELpcEeukA4iG_0-kAQ" name="WebBrowser"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_mxO2ULpcEeukA4iG_0-kAQ" name="HTML5Player"/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_x-pJ8LpcEeukA4iG_0-kAQ" memberEnd="_x-0wIrpcEeukA4iG_0-kAQ _x_A9YLpcEeukA4iG_0-kAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x-0wILpcEeukA4iG_0-kAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x-0wIbpcEeukA4iG_0-kAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_x-0wIrpcEeukA4iG_0-kAQ" name="webapplication" type="_EP5lsLpbEeukA4iG_0-kAQ" association="_x-pJ8LpcEeukA4iG_0-kAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_x_A9YLpcEeukA4iG_0-kAQ" name="database server" type="_34rU4LpbEeukA4iG_0-kAQ" association="_x-pJ8LpcEeukA4iG_0-kAQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_y2FvULpcEeukA4iG_0-kAQ" memberEnd="_y2FvU7pcEeukA4iG_0-kAQ _y2FvVLpcEeukA4iG_0-kAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y2FvUbpcEeukA4iG_0-kAQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y2FvUrpcEeukA4iG_0-kAQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_y2FvU7pcEeukA4iG_0-kAQ" name="userpc" type="_TiRuILpcEeukA4iG_0-kAQ" association="_y2FvULpcEeukA4iG_0-kAQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_y2FvVLpcEeukA4iG_0-kAQ" name="webapplication" type="_EP5lsLpbEeukA4iG_0-kAQ" association="_y2FvULpcEeukA4iG_0-kAQ"/>
+  </packagedElement>
+</uml:Model>

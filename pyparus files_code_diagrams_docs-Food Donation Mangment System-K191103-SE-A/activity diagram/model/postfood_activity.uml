@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PzsjoLmYEeueC4NYDVnRdQ" name="postfood_activity">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_P3F14LmYEeueC4NYDVnRdQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_P0spMLmYEeueC4NYDVnRdQ" name="post food" node="_-xwTULmcEeueC4NYDVnRdQ _NR4cQLmaEeueC4NYDVnRdQ _Yjy4kLmeEeueC4NYDVnRdQ _sqBnALmeEeueC4NYDVnRdQ _1pifsLmeEeueC4NYDVnRdQ" group="_i-XE4LmcEeueC4NYDVnRdQ _t78-YLmdEeueC4NYDVnRdQ _pkUaULmeEeueC4NYDVnRdQ">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_Xrxy0LmbEeueC4NYDVnRdQ" name="donor" visibility="package" node="_kgPj0LmbEeueC4NYDVnRdQ _bEz2ELmZEeueC4NYDVnRdQ _eaexYLmZEeueC4NYDVnRdQ _jPLPcLmZEeueC4NYDVnRdQ _zf4y8LmbEeueC4NYDVnRdQ _47Ug4LmbEeueC4NYDVnRdQ _F8bxULmdEeueC4NYDVnRdQ _DeIGYLmeEeueC4NYDVnRdQ _9Lbj0LmeEeueC4NYDVnRdQ _A-pWwLmfEeueC4NYDVnRdQ">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_BHBhkLmdEeueC4NYDVnRdQ" target="_-xwTULmcEeueC4NYDVnRdQ" source="_zf4y8LmbEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_gzyOQLmdEeueC4NYDVnRdQ" target="_kgPj0LmbEeueC4NYDVnRdQ" source="_47Ug4LmbEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_hnKL8LmdEeueC4NYDVnRdQ" target="_bEz2ELmZEeueC4NYDVnRdQ" source="_47Ug4LmbEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iQpN0LmdEeueC4NYDVnRdQ" target="_eaexYLmZEeueC4NYDVnRdQ" source="_47Ug4LmbEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_i3mgILmdEeueC4NYDVnRdQ" target="_jPLPcLmZEeueC4NYDVnRdQ" source="_47Ug4LmbEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jo7PYLmdEeueC4NYDVnRdQ" target="_NR4cQLmaEeueC4NYDVnRdQ" source="_47Ug4LmbEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_kuPRoLmdEeueC4NYDVnRdQ" target="_zf4y8LmbEeueC4NYDVnRdQ" source="_jPLPcLmZEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_mWQYULmdEeueC4NYDVnRdQ" target="_zf4y8LmbEeueC4NYDVnRdQ" source="_eaexYLmZEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nF0NALmdEeueC4NYDVnRdQ" target="_zf4y8LmbEeueC4NYDVnRdQ" source="_bEz2ELmZEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_n88pULmdEeueC4NYDVnRdQ" target="_zf4y8LmbEeueC4NYDVnRdQ" source="_kgPj0LmbEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_SUbBsLmdEeueC4NYDVnRdQ" target="_47Ug4LmbEeueC4NYDVnRdQ" source="_F8bxULmdEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_HmBI0LmeEeueC4NYDVnRdQ" name="no more food to add" target="_DeIGYLmeEeueC4NYDVnRdQ" source="_F8bxULmdEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nD0zgLmeEeueC4NYDVnRdQ" target="_Yjy4kLmeEeueC4NYDVnRdQ" source="_DeIGYLmeEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_EPOWsLmfEeueC4NYDVnRdQ" target="_47Ug4LmbEeueC4NYDVnRdQ" source="_A-pWwLmfEeueC4NYDVnRdQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IC5coLmfEeueC4NYDVnRdQ" target="_A-pWwLmfEeueC4NYDVnRdQ" source="_9Lbj0LmeEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_kgPj0LmbEeueC4NYDVnRdQ" name="add food" incoming="_gzyOQLmdEeueC4NYDVnRdQ" outgoing="_n88pULmdEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_bEz2ELmZEeueC4NYDVnRdQ" name="enter quantity" incoming="_hnKL8LmdEeueC4NYDVnRdQ" outgoing="_nF0NALmdEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_eaexYLmZEeueC4NYDVnRdQ" name="set description" incoming="_iQpN0LmdEeueC4NYDVnRdQ" outgoing="_mWQYULmdEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_jPLPcLmZEeueC4NYDVnRdQ" name="set date and time" incoming="_i3mgILmdEeueC4NYDVnRdQ" outgoing="_kuPRoLmdEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:JoinNode" xmi:id="_zf4y8LmbEeueC4NYDVnRdQ" name="Join" incoming="_kuPRoLmdEeueC4NYDVnRdQ _lnbjcLmdEeueC4NYDVnRdQ _mWQYULmdEeueC4NYDVnRdQ _nF0NALmdEeueC4NYDVnRdQ _n88pULmdEeueC4NYDVnRdQ" outgoing="_BHBhkLmdEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:ForkNode" xmi:id="_47Ug4LmbEeueC4NYDVnRdQ" name="Fork" incoming="_SUbBsLmdEeueC4NYDVnRdQ _EPOWsLmfEeueC4NYDVnRdQ" outgoing="_gzyOQLmdEeueC4NYDVnRdQ _hnKL8LmdEeueC4NYDVnRdQ _iQpN0LmdEeueC4NYDVnRdQ _i3mgILmdEeueC4NYDVnRdQ _jo7PYLmdEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_F8bxULmdEeueC4NYDVnRdQ" name="more food" incoming="_fk-RwLmdEeueC4NYDVnRdQ" outgoing="_SUbBsLmdEeueC4NYDVnRdQ _HmBI0LmeEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_DeIGYLmeEeueC4NYDVnRdQ" name="add food into inventory" incoming="_HmBI0LmeEeueC4NYDVnRdQ" outgoing="_nD0zgLmeEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_9Lbj0LmeEeueC4NYDVnRdQ" name="start" outgoing="_IC5coLmfEeueC4NYDVnRdQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_A-pWwLmfEeueC4NYDVnRdQ" name="login" incoming="_IC5coLmfEeueC4NYDVnRdQ" outgoing="_EPOWsLmfEeueC4NYDVnRdQ"/>
+    </ownedBehavior>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fk-RwLmdEeueC4NYDVnRdQ" inPartition="_i-XE4LmcEeueC4NYDVnRdQ" target="_F8bxULmdEeueC4NYDVnRdQ" source="_-xwTULmcEeueC4NYDVnRdQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lnbjcLmdEeueC4NYDVnRdQ" target="_zf4y8LmbEeueC4NYDVnRdQ" source="_NR4cQLmaEeueC4NYDVnRdQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zOcWQLmeEeueC4NYDVnRdQ" target="_sqBnALmeEeueC4NYDVnRdQ" source="_Yjy4kLmeEeueC4NYDVnRdQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3yOqgLmeEeueC4NYDVnRdQ" inPartition="_pkUaULmeEeueC4NYDVnRdQ" target="_1pifsLmeEeueC4NYDVnRdQ" source="_sqBnALmeEeueC4NYDVnRdQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_i-XE4LmcEeueC4NYDVnRdQ" name="food" node="_-xwTULmcEeueC4NYDVnRdQ _NR4cQLmaEeueC4NYDVnRdQ" edge="_fk-RwLmdEeueC4NYDVnRdQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_t78-YLmdEeueC4NYDVnRdQ" name="inventory" node="_Yjy4kLmeEeueC4NYDVnRdQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_pkUaULmeEeueC4NYDVnRdQ" name="database" node="_sqBnALmeEeueC4NYDVnRdQ _1pifsLmeEeueC4NYDVnRdQ" edge="_3yOqgLmeEeueC4NYDVnRdQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-xwTULmcEeueC4NYDVnRdQ" name="add food item" incoming="_BHBhkLmdEeueC4NYDVnRdQ" outgoing="_fk-RwLmdEeueC4NYDVnRdQ" inPartition="_i-XE4LmcEeueC4NYDVnRdQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NR4cQLmaEeueC4NYDVnRdQ" name="food_code generation" incoming="_jo7PYLmdEeueC4NYDVnRdQ" outgoing="_lnbjcLmdEeueC4NYDVnRdQ" inPartition="_i-XE4LmcEeueC4NYDVnRdQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Yjy4kLmeEeueC4NYDVnRdQ" name="update inventory" incoming="_nD0zgLmeEeueC4NYDVnRdQ" outgoing="_zOcWQLmeEeueC4NYDVnRdQ" inPartition="_t78-YLmdEeueC4NYDVnRdQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_sqBnALmeEeueC4NYDVnRdQ" name="update databse" incoming="_zOcWQLmeEeueC4NYDVnRdQ" outgoing="_3yOqgLmeEeueC4NYDVnRdQ" inPartition="_pkUaULmeEeueC4NYDVnRdQ"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_1pifsLmeEeueC4NYDVnRdQ" name="final" incoming="_3yOqgLmeEeueC4NYDVnRdQ" inPartition="_pkUaULmeEeueC4NYDVnRdQ"/>
+  </packagedElement>
+</uml:Model>

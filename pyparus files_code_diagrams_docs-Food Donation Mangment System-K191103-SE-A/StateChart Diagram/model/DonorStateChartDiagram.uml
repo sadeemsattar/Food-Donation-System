@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6eqi4LpfEeukA4iG_0-kAQ" name="StateChartDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_6f6gELpfEeukA4iG_0-kAQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_6e7ooLpfEeukA4iG_0-kAQ" name="Donor">
+    <region xmi:type="uml:Region" xmi:id="_6fN8gLpfEeukA4iG_0-kAQ" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_hjLq0LphEeukA4iG_0-kAQ" source="_No6KMLpgEeukA4iG_0-kAQ" target="_OgPa0LpgEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_jaX18LphEeukA4iG_0-kAQ" name="BrowsingContent" source="_Z9WXULpgEeukA4iG_0-kAQ" target="_Q6XT4LpgEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_O3JNALpiEeukA4iG_0-kAQ" name="PostFood" source="_Q6XT4LpgEeukA4iG_0-kAQ" target="_S_KdMLpgEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_PcXZ8LpiEeukA4iG_0-kAQ" source="_S_KdMLpgEeukA4iG_0-kAQ" target="_wNvQMLpgEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_P6bO8LpiEeukA4iG_0-kAQ" name="VerifiyReceiptCode" source="_wNvQMLpgEeukA4iG_0-kAQ" target="_DLqSwLphEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_QXRjALpiEeukA4iG_0-kAQ" source="_DLqSwLphEeukA4iG_0-kAQ" target="_2ECVMLpgEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Q75TALpiEeukA4iG_0-kAQ" source="_2ECVMLpgEeukA4iG_0-kAQ" target="_SRdNMLphEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_RpcVgLpiEeukA4iG_0-kAQ" name="StatesEnd" source="_SRdNMLphEeukA4iG_0-kAQ" target="_Xxj_wLphEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_WxRK8LpiEeukA4iG_0-kAQ" name="ViewingDetails" source="_OgPa0LpgEeukA4iG_0-kAQ" target="_Z9WXULpgEeukA4iG_0-kAQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_No6KMLpgEeukA4iG_0-kAQ" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_OgPa0LpgEeukA4iG_0-kAQ" name="Idle"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Q6XT4LpgEeukA4iG_0-kAQ" name="Browse"/>
+      <subvertex xmi:type="uml:State" xmi:id="_S_KdMLpgEeukA4iG_0-kAQ" name="Posting(FoodItem)"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Z9WXULpgEeukA4iG_0-kAQ" name="ViewProfile"/>
+      <subvertex xmi:type="uml:State" xmi:id="_wNvQMLpgEeukA4iG_0-kAQ" name="Receiving(OrderReceipt)"/>
+      <subvertex xmi:type="uml:State" xmi:id="_2ECVMLpgEeukA4iG_0-kAQ" name="Waiting"/>
+      <subvertex xmi:type="uml:State" xmi:id="_DLqSwLphEeukA4iG_0-kAQ" name="Verification"/>
+      <subvertex xmi:type="uml:State" xmi:id="_SRdNMLphEeukA4iG_0-kAQ" name="Providing(Order)"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_Xxj_wLphEeukA4iG_0-kAQ" name=""/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_OtG8sLphEeukA4iG_0-kAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OtIK0LphEeukA4iG_0-kAQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_NdNgULmLEeunlKdnbVTZog" name="LoginCollaboration">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Nj4wELmLEeunlKdnbVTZog">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_NgKtsLmLEeunlKdnbVTZog" name="RegistrationProcess">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_YBJZILmLEeunlKdnbVTZog" name="Registeration" coveredBy="_vWKXwbmLEeunlKdnbVTZog _A9sPIbmMEeunlKdnbVTZog _JXRwQrmMEeunlKdnbVTZog _Z82bYLmMEeunlKdnbVTZog"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_pM8WwLmLEeunlKdnbVTZog" name="User" coveredBy="_vWKXwLmLEeunlKdnbVTZog _Z82bYbmMEeunlKdnbVTZog"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_5rnIoLmLEeunlKdnbVTZog" name="Admin" coveredBy="_A9sPIrmMEeunlKdnbVTZog _JXRwQbmMEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vWKXwLmLEeunlKdnbVTZog" name="Message3SendEvent" covered="_pM8WwLmLEeunlKdnbVTZog" message="_vV4D4LmLEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vWKXwbmLEeunlKdnbVTZog" name="Message3ReceiveEvent" covered="_YBJZILmLEeunlKdnbVTZog" message="_vV4D4LmLEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_A9sPIbmMEeunlKdnbVTZog" name="Message7SendEvent" covered="_YBJZILmLEeunlKdnbVTZog" message="_A9sPILmMEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_A9sPIrmMEeunlKdnbVTZog" name="Message7ReceiveEvent" covered="_5rnIoLmLEeunlKdnbVTZog" message="_A9sPILmMEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JXRwQbmMEeunlKdnbVTZog" name="Message10SendEvent" covered="_5rnIoLmLEeunlKdnbVTZog" message="_JXRwQLmMEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JXRwQrmMEeunlKdnbVTZog" name="Message10ReceiveEvent" covered="_YBJZILmLEeunlKdnbVTZog" message="_JXRwQLmMEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Z82bYLmMEeunlKdnbVTZog" name="Message13SendEvent" covered="_YBJZILmLEeunlKdnbVTZog" message="_Z8wUwLmMEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Z82bYbmMEeunlKdnbVTZog" name="Message13ReceiveEvent" covered="_pM8WwLmLEeunlKdnbVTZog" message="_Z8wUwLmMEeunlKdnbVTZog"/>
+    <message xmi:type="uml:Message" xmi:id="_vV4D4LmLEeunlKdnbVTZog" name="1:SetData" messageSort="asynchCall" receiveEvent="_vWKXwbmLEeunlKdnbVTZog" sendEvent="_vWKXwLmLEeunlKdnbVTZog"/>
+    <message xmi:type="uml:Message" xmi:id="_A9sPILmMEeunlKdnbVTZog" name="2:SubmitVerification" messageSort="asynchCall" receiveEvent="_A9sPIrmMEeunlKdnbVTZog" sendEvent="_A9sPIbmMEeunlKdnbVTZog"/>
+    <message xmi:type="uml:Message" xmi:id="_JXRwQLmMEeunlKdnbVTZog" name="3:ApproveRegistration" messageSort="asynchCall" receiveEvent="_JXRwQrmMEeunlKdnbVTZog" sendEvent="_JXRwQbmMEeunlKdnbVTZog"/>
+    <message xmi:type="uml:Message" xmi:id="_Z8wUwLmMEeunlKdnbVTZog" name="4:Register" messageSort="asynchCall" receiveEvent="_Z82bYbmMEeunlKdnbVTZog" sendEvent="_Z82bYLmMEeunlKdnbVTZog"/>
+  </packagedElement>
+</uml:Model>

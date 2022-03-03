@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3mNs8LmMEeunlKdnbVTZog" name="LoginCollaboration">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_3oHxcLmMEeunlKdnbVTZog">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_3m4bULmMEeunlKdnbVTZog" name="Login">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_5pdXELmMEeunlKdnbVTZog" name="Login" coveredBy="_IpSzcrmNEeunlKdnbVTZog _SqfLkLmNEeunlKdnbVTZog _bPzbkrmNEeunlKdnbVTZog _if9PcbmNEeunlKdnbVTZog _if9PcrmNEeunlKdnbVTZog _oYLnELmNEeunlKdnbVTZog"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_62tNULmMEeunlKdnbVTZog" name="User" coveredBy="_IpSzcbmNEeunlKdnbVTZog _oYLnEbmNEeunlKdnbVTZog"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_RbVQ0LmNEeunlKdnbVTZog" name="Database" coveredBy="_SqfLkbmNEeunlKdnbVTZog _bPzbkbmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IpSzcbmNEeunlKdnbVTZog" name="Message3SendEvent" covered="_62tNULmMEeunlKdnbVTZog" message="_IpSzcLmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IpSzcrmNEeunlKdnbVTZog" name="Message3ReceiveEvent" covered="_5pdXELmMEeunlKdnbVTZog" message="_IpSzcLmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SqfLkLmNEeunlKdnbVTZog" name="Message7SendEvent" covered="_5pdXELmMEeunlKdnbVTZog" message="_SqZE8LmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SqfLkbmNEeunlKdnbVTZog" name="Message7ReceiveEvent" covered="_RbVQ0LmNEeunlKdnbVTZog" message="_SqZE8LmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bPzbkbmNEeunlKdnbVTZog" name="Message10SendEvent" covered="_RbVQ0LmNEeunlKdnbVTZog" message="_bPzbkLmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bPzbkrmNEeunlKdnbVTZog" name="Message10ReceiveEvent" covered="_5pdXELmMEeunlKdnbVTZog" message="_bPzbkLmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_if9PcbmNEeunlKdnbVTZog" name="Message13SendEvent" covered="_5pdXELmMEeunlKdnbVTZog" message="_if9PcLmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_if9PcrmNEeunlKdnbVTZog" name="Message13ReceiveEvent" covered="_5pdXELmMEeunlKdnbVTZog" message="_if9PcLmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oYLnELmNEeunlKdnbVTZog" name="Message16SendEvent" covered="_5pdXELmMEeunlKdnbVTZog" message="_oYFgcLmNEeunlKdnbVTZog"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oYLnEbmNEeunlKdnbVTZog" name="Message16ReceiveEvent" covered="_62tNULmMEeunlKdnbVTZog" message="_oYFgcLmNEeunlKdnbVTZog"/>
+    <message xmi:type="uml:Message" xmi:id="_IpSzcLmNEeunlKdnbVTZog" name="1:Login" messageSort="asynchCall" receiveEvent="_IpSzcrmNEeunlKdnbVTZog" sendEvent="_IpSzcbmNEeunlKdnbVTZog"/>
+    <message xmi:type="uml:Message" xmi:id="_SqZE8LmNEeunlKdnbVTZog" name="2:GetData" messageSort="asynchCall" receiveEvent="_SqfLkbmNEeunlKdnbVTZog" sendEvent="_SqfLkLmNEeunlKdnbVTZog"/>
+    <message xmi:type="uml:Message" xmi:id="_bPzbkLmNEeunlKdnbVTZog" name="3:SubmitData" messageSort="asynchCall" receiveEvent="_bPzbkrmNEeunlKdnbVTZog" sendEvent="_bPzbkbmNEeunlKdnbVTZog"/>
+    <message xmi:type="uml:Message" xmi:id="_if9PcLmNEeunlKdnbVTZog" name="4:Verification" messageSort="asynchCall" receiveEvent="_if9PcrmNEeunlKdnbVTZog" sendEvent="_if9PcbmNEeunlKdnbVTZog"/>
+    <message xmi:type="uml:Message" xmi:id="_oYFgcLmNEeunlKdnbVTZog" name="5:AccessGranted" messageSort="asynchCall" receiveEvent="_oYLnEbmNEeunlKdnbVTZog" sendEvent="_oYLnELmNEeunlKdnbVTZog"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PpFQELmNEeunlKdnbVTZog">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PpFQEbmNEeunlKdnbVTZog" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

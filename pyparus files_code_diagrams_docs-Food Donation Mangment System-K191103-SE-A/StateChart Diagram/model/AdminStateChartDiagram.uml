@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_FYrKoLpmEeukA4iG_0-kAQ" name="AdminStateChartDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_FZRnkLpmEeukA4iG_0-kAQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_IXAkALpmEeukA4iG_0-kAQ" name="Admin">
+    <region xmi:type="uml:Region" xmi:id="_JqV0ILpmEeukA4iG_0-kAQ" name="Admin">
+      <transition xmi:type="uml:Transition" xmi:id="_cNKPELpmEeukA4iG_0-kAQ" name="ApproveRegistration" source="_N_yKYLpmEeukA4iG_0-kAQ" target="_PTTnwLpmEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_pJQSELpmEeukA4iG_0-kAQ" name="CreateReceipt" source="_N_yKYLpmEeukA4iG_0-kAQ" target="_SSt_MLpmEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_rX2QkLpmEeukA4iG_0-kAQ" name="VerifyReceiptCode" source="_N_yKYLpmEeukA4iG_0-kAQ" target="_YNhwwLpmEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_yDozILpmEeukA4iG_0-kAQ" source="_PTTnwLpmEeukA4iG_0-kAQ" target="_vuuxQLpmEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_y8GFILpmEeukA4iG_0-kAQ" name="SendReceipt" source="_SSt_MLpmEeukA4iG_0-kAQ" target="_BwYY0LpnEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_zoq3QLpmEeukA4iG_0-kAQ" source="_YNhwwLpmEeukA4iG_0-kAQ" target="_vuuxQLpmEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_1o1_QLpmEeukA4iG_0-kAQ" source="_NQkT8LpmEeukA4iG_0-kAQ" target="_N_yKYLpmEeukA4iG_0-kAQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_HPqE8LpnEeukA4iG_0-kAQ" source="_BwYY0LpnEeukA4iG_0-kAQ" target="_vuuxQLpmEeukA4iG_0-kAQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_NQkT8LpmEeukA4iG_0-kAQ" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_N_yKYLpmEeukA4iG_0-kAQ" name="Idle"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PTTnwLpmEeukA4iG_0-kAQ" name="Approving"/>
+      <subvertex xmi:type="uml:State" xmi:id="_SSt_MLpmEeukA4iG_0-kAQ" name="Creating"/>
+      <subvertex xmi:type="uml:State" xmi:id="_YNhwwLpmEeukA4iG_0-kAQ" name="Validating"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_vuuxQLpmEeukA4iG_0-kAQ" name="FinalState"/>
+      <subvertex xmi:type="uml:State" xmi:id="_BwYY0LpnEeukA4iG_0-kAQ" name="Send"/>
+    </region>
+  </packagedElement>
+</uml:Model>
